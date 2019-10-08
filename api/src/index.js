@@ -29,8 +29,8 @@ app.use(cors());
 
 app.use('*', logQuery);
 
-app.get('/locations', locationsRouter);
-app.get('/postal-codes', postalCodesRouter);
+app.use(locationsRouter);
+app.use(postalCodesRouter);
 
 app.use(handleError);
 
