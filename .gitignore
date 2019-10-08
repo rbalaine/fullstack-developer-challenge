@@ -182,3 +182,6 @@ Temporary Items
 # api data
 /api/data/
 !/api/data/.gitkeep
+
+# Webstorm conf files
+.idea
